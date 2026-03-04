@@ -1,7 +1,7 @@
 # Challenge-Telecom-X-an-lisis-de-evasion-de-clientes
 TelecomX — Análisis de Evasión de Clientes (Churn)
 
-##1. Propósito del Análisis
+## 1. Propósito del Análisis
 TelecomX enfrenta un problema crítico: una parte significativa de sus clientes abandona la empresa. Este fenómeno se conoce como Churn y representa una pérdida directa de ingresos.
 
 El objetivo de este análisis es identificar qué factores están asociados a la evasión de clientes, respondiendo preguntas como:
@@ -12,7 +12,7 @@ El objetivo de este análisis es identificar qué factores están asociados a la
 ¿Existe relación entre el costo mensual y la evasión?
 Con base en los hallazgos, se emite una recomendación para que TelecomX pueda orientar sus estrategias de retención.
 
-##2. Estructura del Proyecto
+## 2. Estructura del Proyecto
 telecomx/
 │
 ├── TelecomX_LATAM.ipynb       # Notebook principal con el proceso ETL y el análisis
@@ -25,7 +25,7 @@ Extracción: carga del JSON desde la API de GitHub con requests
 Transformación: aplanamiento del JSON anidado, limpieza de tipos y valores nulos
 Carga y análisis: visualizaciones exploratorias sobre las variables más relevantes
 Informe final: resumen numérico y conclusiones con recomendaciones
-##3. Gráficos e Insights Obtenidos
+## 3. Gráficos e Insights Obtenidos
 Tasa general de Churn
 Gráfico de torta mostrando la proporción de clientes que abandonaron vs. los que se quedaron.
 
@@ -51,7 +51,7 @@ Barras comparando el gasto mensual promedio entre clientes que se fueron y los q
 
 Insight: Los clientes que abandonaron pagaban en promedio más por mes, lo que refuerza que la percepción de valor es un factor determinante en la decisión de salida.
 
-##4. Instrucciones para Ejecutar el Notebook
+## 4. Instrucciones para Ejecutar el Notebook
 Opción A — Google Colab (recomendado, sin instalación)
 Descarga el archivo TelecomX_LATAM.ipynb
 Entra a colab.research.google.com
@@ -60,10 +60,10 @@ Selecciona el archivo descargado
 Ejecuta todas las celdas con Ctrl + F9
 Los datos se cargan automáticamente desde GitHub. Solo necesitas conexión a internet.
 
-#Opción B — Localmente con Jupyter
+# Opción B — Localmente con Jupyter
 Requisitos previos:
 
-##pip install pandas matplotlib requests jupyter
+## pip install pandas matplotlib requests jupyter
 Pasos:
 
 ### 1. Clona este repositorio
